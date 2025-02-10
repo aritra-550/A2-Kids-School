@@ -241,8 +241,7 @@ height: 1018.02px;
 border: 1px solid rgb(255, 255, 255);
 background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.2),rgba(255, 255, 255, 0.2) 100%);
 opacity: 100%;
-margin: 0px;
-margin: 0px;
+margin-bottom: 0px;
 }
 
       .stories-heading{
@@ -354,7 +353,65 @@ padding: 0 20px;
   justify-content: center;
   align-items: center;
   margin-top: 80px;
+  margin-bottom: 0px;
 }
+footer{
+position: absolute;
+width: 1160px;
+height: 350px;
+/* left: 1px; */
+top: 2572px;
+background-color: rgb(1, 172, 253);
+margin-top: 0px;
+padding: 140px 140px;
+text-align: left;
+align-items: center;
+}
+.white{
+  color: white;
+}
+/* .footer-container{
+  display: flex;
+  padding: 123px 140px;
+
+} */
+/* .about-us{
+  display: flex;
+} */
+ .sub{
+  display: flex;
+  flex-direction: row;
+ }
+ .about{
+  list-style: none;
+  letter-spacing: 20%;
+  
+ }
+ .foot-description, .about, .social-media{
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .foot-logo{
+  /* Group 1 */
+/* position: absolute; */
+width: 80px;
+height: 80px;
+/* left: 141px;
+right: 75.81px;
+top: 2695px;
+bottom: -2695px; */
+ }
+ .foot-logo2{
+  height: 40px;
+  width: 40px;
+ }
+ .footer-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ }
   @media screen and (max-width: 576px) {
     body{
       margin: 20px;
@@ -422,6 +479,7 @@ padding: 0 20px;
 
 }
 #our-stories{
+  /* position: relative; */
   /* background-image: url('../assets/bg.png'); */
   background-position: center;
   background-repeat: no-repeat;
@@ -445,4 +503,44 @@ padding: 0 20px;
   justify-content: center;
   text-align: center;
 }
+/* .stories-btn{
+position: static;
+width: 134px;
+height: 30px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 10px; */
+
+/* Inside Auto Layout */
+/* flex: none;
+order: 2;
+flex-grow: 0;
+margin: 20px 0px; */
+/* .stories-btn{
+ display: none;
+} */
+footer{
+position: absolute;
+width: 390px;
+height: 642px;
+left: 0;
+top: 3400px;
+background-color: rgb(1, 172, 253);
+text-align: left;
+}
+.footer-container{
+  grid-template-columns: repeat(1, 1fr);
+}
+.about{
+  text-align: left;
+}
+
   }
+
+
+
+  
